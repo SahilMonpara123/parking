@@ -1,0 +1,468 @@
+@media (min-width: 1920px) and (max-width: 2560px) {
+    .offer-revenue {
+        max-width: 873px;
+    }
+
+    .offer-revenue-section {
+        padding-right: 35%;
+        padding-left: 35%;
+    }
+}
+
+@media (max-width:1440px) {
+
+    .about-section .about-wrapper h2,
+    .believe-section .believe-main-wrapper .belive-title-wrapper h2,
+    .believe-section .believe-main-wrapper .belive-info h2,
+    .solution-section .solution-wrapper h2,
+    .testimonial-section h2,
+    .work-section .title h2,
+    .work-with-us-section .work-wrapper h2,
+    .month-section h2,
+    .category-section .title h2,
+    .team-section .team-wrapper .title h2 {
+        font-size: 44px;
+    }
+
+    .category-section .nav-tab-inner .tab-nav span {
+        font-size: 36px;
+    }
+
+    .about-section .about-wrapper p,
+    .solution-section .solution-wrapper p,
+    .believe-section .believe-main-wrapper .belive-info p,
+    .testimonial-section .testimonail-inner .testimonail-single-slider .left-wrapper h6,
+    .testimonial-section .testimonail-inner .testimonail-single-slider .left-wrapper p,
+    .testimonial-section .testimonail-inner .testimonail-single-slider p.info,
+    .work-section .title p,
+    .work-with-us-section .work-wrapper p,
+    .work-with-us-section .work-wrapper a {
+        font-size: 15px;
+    }
+
+    .testimonial-section .testimonail-inner .testimonail-single-slider {
+        padding: 20px;
+    }
+
+    .offer-revenue {
+        max-width: 873px;
+    }
+
+    .heading .row .col-md-4 img {
+        height: 300px;
+    }
+
+    .swiper.testimonail-slider.swiper-initialized.swiper-horizontal.swiper-backface-hidden {
+        /*        height:410px;*/
+        height: auto;
+    }
+}
+
+@media (min-width:1440px) {
+    .about-section {
+        margin-bottom: 108px;
+    }
+
+    .believe-section .believe-main-wrapper .belive-info {
+        border-radius: 20px;
+        padding: 18px;
+    }
+
+    .heading .row .col-md-4 img {
+        height: 300px;
+    }
+}
+
+@media (max-width:1199px) {
+    .category-section .nav-tab-inner .tab-nav span {
+        font-size: 24px;
+    }
+
+    .team-section .team-member-wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .team-section .team-wrapper .team-member-wrapper {
+        max-width: 100%;
+    }
+
+    .team-section .team-wrapper .team-member-wrapper .team-member span {
+        width: 100%;
+        height: auto;
+    }
+
+    .solution-section {
+        padding: 80px 0 0 0;
+    }
+
+    .category-section .nav-tab-inner .tab-content .tab-target .yealy-month-detail .yealy-month-detail-inner {
+        max-width: 31%;
+    }
+
+    .about-section .about-wrapper h2,
+    .believe-section .believe-main-wrapper .belive-title-wrapper h2,
+    .believe-section .believe-main-wrapper .belive-info h2,
+    .solution-section .solution-wrapper h2,
+    .testimonial-section h2,
+    .work-section .title h2,
+    .team-section .team-wrapper .title h2,
+    .work-with-us-section .work-wrapper h2,
+    .month-section h2,
+    .category-section .title h2 {
+        font-size: 32px;
+    }
+
+    .believe-section .believe-main-wrapper .belive-info {
+        padding: 24px;
+    }
+
+    .testimonial-section .testimonail-inner .testimonail-single-slider p.info {
+        padding-left: 20px;
+    }
+
+    .testimonial-section .testimonail-inner .testimonail-single-slider .left-wrapper {
+        margin-right: 20px;
+    }
+
+    .testimonial-section .testimonail-inner .testimonail-single-slider {
+        padding: 15px;
+    }
+
+    .testimonial-section .testimonail-inner .testimonail-single-slider {
+        /*        margin-left: 15px;*/
+        margin-left: 0;
+    }
+
+    .about-section .about-wrapper .image-wrapper {
+        height: 39vw;
+        max-height: 39vw;
+    }
+
+    .solution-section .wrapper-1 a {
+        height: 57.65vw;
+    }
+
+    .solution-section .wrapper-4 a {
+        height: 25.7vw;
+    }
+
+    .solution-section .wrapper-2 a,
+    .solution-section .wrapper-3 a {
+        height: 30.6vw;
+    }
+
+    .work-section .work-wrapper .wrapper-image {
+        height: 17vw;
+    }
+
+    .offer-revenue-section {
+        padding-right: 20%;
+        padding-left: 20%;
+    }
+
+    .heading .row .col-md-4 img {
+        height: 300px;
+    }
+}
+
+@media (max-width:991px) {
+    .team-section .marquee-wrap .marquee .item span {
+        width: 140px;
+        height: 140px;
+    }
+
+    .team-section .team-wrapper .team-member-wrapper .team-member,
+    .team-section .team-wrapper .marquee-wrap {
+        margin-bottom: 30px;
+    }
+
+    .category-section .nav-tab-inner .tab-content .tab-target .yealy-month-detail .yealy-month-detail-inner {
+        max-width: 31%;
+    }
+
+    .category-section .nav-tab-inner .tab-content .tab-target .yealy-month-detail {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .category-section .nav-tab-inner .tab-nav {
+        justify-content: flex-start;
+    }
+
+    .category-section .nav-tab-inner .tab-nav span:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .category-section .nav-tab-inner .tab-content .tab-target .yealy-month-detail .yealy-month-detail-inner {
+        margin-bottom: 20px;
+    }
+
+    .category-section .nav-tab-inner .tab-content .tab-target .month-detail {
+        padding: 15px;
+    }
+
+    .category-section .nav-tab-inner .tab-content .tab-target .month-detail span {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        padding: 6px;
+        min-width: 30px;
+    }
+
+    .category-section .nav-tab-inner .tab-content .tab-target .yealy-month-detail .yealy-month-detail-inner h3 {
+        font-size: 34px;
+        margin: 0 0 20px 0;
+    }
+
+    .believe-section .believe-main-wrapper .belive-info:not(:last-child) {
+        margin-bottom: 15px;
+    }
+
+    .believe-section .believe-main-wrapper .belive-info {
+        padding: 20px;
+    }
+
+    .about-section .about-wrapper h2,
+    .believe-section .believe-main-wrapper .belive-title-wrapper h2,
+    .believe-section .believe-main-wrapper .belive-info h2,
+    .solution-section .solution-wrapper h2,
+    .testimonial-section h2,
+    .work-section .title h2,
+    .team-section .team-wrapper .title h2,
+    .work-with-us-section .work-wrapper h2,
+    .month-section h2,
+    .category-section .title h2 {
+        margin-bottom: 18px;
+    }
+
+    .solution-section {
+        padding: 60px 0 0 0;
+    }
+
+    .testimonial-section {
+        padding-top: 20px;
+    }
+
+    .testimonial-section .testimonail-inner .testimonail-single-slider {
+        flex-direction: column;
+        text-align: -webkit-center;
+        height: 440px;
+    }
+
+    .testimonial-section .testimonail-inner .testimonail-single-slider .left-wrapper {
+        margin-right: 0px;
+    }
+
+    .testimonial-section .testimonail-inner .testimonail-single-slider p.info {
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .testimonial-section .testimonail-inner .testimonail-single-slider p.info::before {
+        display: none;
+    }
+
+    .you-just-took-first-step {
+        font-size: 32px !important;
+    }
+
+    .offer-revenue-section {
+        padding-right: 8% !important;
+        padding-left: 8% !important;
+    }
+
+    .heading .row .col-md-4 img {
+        height: 300px;
+    }
+}
+
+@media (max-width:767px) {
+    .category-section .nav-tab-inner .tab-nav span {
+        font-size: 22px;
+    }
+
+    .team-section .marquee-wrap .marquee .item span {
+        width: 100px;
+        height: 100px;
+    }
+
+    .category-section .nav-tab-inner .tab-content .tab-target .yealy-month-detail .yealy-month-detail-inner {
+        max-width: 48%;
+        margin-bottom: 10px;
+    }
+
+    .about-section .about-wrapper h2,
+    .believe-section .believe-main-wrapper .belive-title-wrapper h2,
+    .believe-section .believe-main-wrapper .belive-info h2,
+    .solution-section .solution-wrapper h2,
+    .testimonial-section h2,
+    .work-section .title h2,
+    .work-with-us-section .work-wrapper h2,
+    .month-section h2,
+    .category-section .title h2,
+    .team-section .team-wrapper .title h2 {
+        font-size: 38px;
+    }
+
+    .believe-section [class*=col-] {
+        width: 100%;
+    }
+
+    .believe-section .believe-main-wrapper .belive-title-wrapper h2 {
+        text-align: center;
+    }
+
+    .you-just-took-first-step {
+        font-size: 40px !important;
+    }
+
+    .offer-revenue .col-md-3 img {
+        /* width: 70%;
+        */
+        /* padding: 17px;
+        */
+        padding-top: 35px;
+    }
+
+    .offer-revenue {
+        width: 100% !important;
+    }
+
+    .offer-revenue-section {
+        padding-right: 8% !important;
+        padding-left: 8% !important;
+    }
+
+    .heading .row .col-md-4 img {
+        height: auto;
+    }
+}
+
+@media (max-width:575px) {
+
+    .work-section .work-wrapper,
+    .solution-images-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .team-section .team-wrapper .team-member-wrapper .team-member-inner {
+        max-width: 46%;
+    }
+
+    .team-section .team-wrapper .title p,
+    .team-section .marquee-wrap .marquee .item p,
+    .team-section .team-wrapper .team-member-wrapper .team-member p {
+        font-size: 15px;
+    }
+
+    .team-section .team-wrapper .team-member-wrapper .team-member p:last-child {
+        font-size: 11px;
+    }
+
+    .category-section .nav-tab-inner {
+        flex-direction: column;
+    }
+
+    .category-section .nav-tab-inner .tab-nav,
+    .category-section .nav-tab-inner .tab-content {
+        max-width: 100%;
+    }
+
+    .category-section .nav-tab-inner .tab-content .tab-target .yealy-month-detail .yealy-month-detail-inner {
+        max-width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .category-section .nav-tab-inner .tab-nav {
+        gap: 10px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 1rem;
+    }
+
+    .category-section .nav-tab-inner .tab-nav span {
+        max-width: calc(20% - 8px);
+        width: 100%;
+        transition: .3s ease all;
+        font-size: 18px;
+        text-align: center;
+        padding-top: 0;
+        margin: 0;
+    }
+
+    .category-section .nav-tab-inner .tab-nav span.is-active {
+        border-bottom: 3px solid #3ecf8e;
+    }
+
+    .category-section .nav-tab-inner .tab-nav span:not(:last-child) {
+        margin-bottom: 0;
+    }
+
+    .category-section .nav-tab-inner .tab-content .tab-target .yealy-month-detail .yealy-month-detail-inner h3 {
+        font-size: 30px;
+        margin: 0 0 10px 0;
+    }
+
+    .believe-section .believe-main-wrapper {
+        padding: 15px 0;
+        border-radius: 10px;
+    }
+
+    .believe-section .believe-main-wrapper .belive-info h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .solution-section {
+        padding: 40px 0 0 0;
+    }
+
+    .testimonial-section {
+        padding-bottom: 30px;
+    }
+
+    .testimonial-section .testimonail-slider {
+        padding-bottom: 30px;
+        text-align: -webkit-center;
+    }
+
+    .work-section .work-wrapper .wrapper-image,
+    .solution-section a {
+        height: 50vw !important;
+    }
+
+    .category-section .nav-tab-inner .tab-nav span:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .offer-revenue {
+        padding: 30px 20px;
+    }
+
+    .get-my-parking {
+        color: #fff;
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        padding: 0;
+    }
+
+    .offer-revenue img {
+        padding-top: 26px;
+    }
+
+    .offer-revenue .col-md-3 img {
+        padding-top: 0 !important;
+    }
+
+    .offer-revenue-section {
+        padding-right: 7% !important;
+        padding-left: 7% !important;
+    }
+
+    .heading .row .col-md-4 img {
+        height: auto;
+    }
+}
