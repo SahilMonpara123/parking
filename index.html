@@ -1,4 +1,4 @@
-<html lang="en" prefix="og: http://ogp.me/ns#" data-qb-installed="true"><head>
+﻿<html lang="en" prefix="og: http://ogp.me/ns#" data-qb-installed="true"><head>
   <!-- Snitcher -->
   <script type="text/javascript" async src="./scripts/insight.min.js"></script><script src="./scripts/diffuser.js" async></script><script async src="./scripts/ping.js"></script><script async type="text/javascript" id="__radar__" data-settings="{&quot;apiEndpoint&quot;:&quot;https://radar.snitcher.com&quot;,&quot;cdn&quot;:&quot;cdn.snitcher.com&quot;,&quot;namespace&quot;:&quot;Snitcher&quot;,&quot;profileId&quot;:&quot;sPaZ28bAtH&quot;}" src="./scripts/radar.min.js"></script><script>
   !function(e){"use strict";var t=e&&e.namespace;if(t&&e.profileId&&e.cdn){var i=window[t];if(i&&Array.isArray(i)||(i=window[t]=[]),!i.initialized&&!i._loaded)if(i._loaded)console&&console.warn("[Radar] Duplicate initialization attempted");else{i._loaded=!0;["track","page","identify","group","alias","ready","debug","on","off","once","trackClick","trackSubmit","trackLink","trackForm","pageview","screen","reset","register","setAnonymousId","addSourceMiddleware","addIntegrationMiddleware","addDestinationMiddleware","giveCookieConsent"].forEach((function(e){var a;i[e]=(a=e,function(){var e=window[t];if(e.initialized)return e[a].apply(e,arguments);var i=[].slice.call(arguments);return i.unshift(a),e.push(i),e})})),-1===e.apiEndpoint.indexOf("http")&&(e.apiEndpoint="https://"+e.apiEndpoint),i.bootstrap=function(){var t,i=document.createElement("script");i.async=!0,i.type="text/javascript",i.id="__radar__",i.setAttribute("data-settings",JSON.stringify(e)),i.src=[-1!==(t=e.cdn).indexOf("http")?"":"https://",t,"/releases/latest/radar.min.js"].join("");var a=document.scripts[0];a.parentNode.insertBefore(i,a)},i.bootstrap()}}else"undefined"!=typeof console&&console.error("[Radar] Configuration incomplete")}({
@@ -137,6 +137,13 @@
       }
     }
   </style>
+  <link
+  rel="preload"
+  as="image"
+  href="/images/home-hero-banner.png"
+  fetchpriority="high"
+/>
+
 <style type="text/css" id="ulaa-puvi-font">
       @font-face {
             font-family: 'Zoho-Puvi-Regular';
@@ -416,7 +423,7 @@
           <a class="gmp-btn text-uppercase mr-md-3 mr-1" href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/gmp-demo/'});return false;">Get a Demo</a><a class="gmp-btn-demo text-uppercase" href="./pages/contact.php.html">Contact us</a><br>
         </div>
         <div class="hero-section-image-wrapper">
-          <img class="img-fluid w-100 h-100 text-fade" id="hero-img" src="./images/home-hero-banner.png" alt="A gif presenting a digitized parking facility" style="object-fit: cover; filter: blur(2.5px);">
+          <img class="img-fluid w-100 h-100 text-fade" id="hero-img" src="./images/home-hero-banner.png" alt="A gif presenting a digitized parking facility" width="1200"height="700" fetchpriority="high" decoding="async" style="object-fit: cover; filter: blur(2.5px);">
           <span class="hero-product-feature" style="bottom: 20%; right: 45%; display: inherit;">
             <img class="img-fluid" id="highlight-pic" src="./images/circle-automate-your-gates.png">
           </span>
